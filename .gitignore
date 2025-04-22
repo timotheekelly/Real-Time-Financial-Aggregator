@@ -1,0 +1,46 @@
+# === OS Generated Files ===
+.DS_Store
+Thumbs.db
+
+# === IDEs and Editors ===
+.vscode/
+.idea/               # IntelliJ project folder
+*.iws                # IntelliJ workspace files
+*.iml                # IntelliJ module files
+*.ipr                # IntelliJ project files
+*.swp
+*.swo
+
+# === Java / Maven ===
+**/target/
+**/.classpath
+**/.project
+**/.settings/
+**/bin/
+**/out/
+
+# === Node / React / Vite ===
+**/node_modules/
+**/.npm/
+**/.yarn/
+**/dist/
+**/.env
+**/.env.*
+
+# === Build Artifacts ===
+*.jar
+*.war
+*.ear
+
+# === Test Reports and Coverage ===
+**/test-output/
+**/coverage/
+
+# === Logs ===
+*.log
+
+# === Misc ===
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
